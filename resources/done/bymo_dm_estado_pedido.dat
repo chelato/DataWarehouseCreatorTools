@@ -1,0 +1,12 @@
+dwh
+bymo_dm_estado_pedido
+TBS_bymo_TABLA_SMALL
+TBS_bymo_INDICE_SMALL
+#
+cod_estado_pedido	PK	number(11)
+cod_estado_pedido_ant		number(11)
+estado_pedido		varchar2(100)
+accion		varchar2(50)
+estado_indirecto_id		
+fecha_creacion		date
+fecha_mod		date

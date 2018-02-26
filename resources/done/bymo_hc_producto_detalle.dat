@@ -1,0 +1,18 @@
+dwh
+bymo_hc_producto_detalle
+TBS_bymo_TABLA_SMALL
+TBS_bymo_INDICE_SMALL
+#
+cod_producto_detalle	PK	number(11)
+cod_producto_detalle_ant		number(11)
+cod_tienda	FK	number(11)
+cod_tienda_ant		number(11)
+internal_reference		varchar2(22)
+referencia	PK	varchar2(150)
+cod_tipo_producto	FK	number(11)
+cod_tipo_producto_ant		number(11)
+cod_almacen	FK	number(11)
+cod_almacen_ant		number(11)
+imei	PK	varchar(21)
+fecha_creacion		date
+fecha_mod		date

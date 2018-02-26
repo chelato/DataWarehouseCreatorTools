@@ -1,0 +1,18 @@
+dwh
+bymo_dm_tarifa
+TBS_bymo_TABLA_SMALL
+TBS_bymo_INDICE_SMALL
+#
+cod_tarifa	PK	number(11)
+cod_tarifa_ant		number(11)
+tarifa_yoigo		varchar2(30)
+tarifa		varchar2(100)
+ind_activo		number(1)
+ind_movil		number(1)
+ind_fijo		number(1)
+ind_hogar_go		number(1)
+tabla_res		varchar2(75)
+tabla_emp		varchar2(75)
+ind_sr_deleted		number(1)
+fecha_creacion		date
+fecha_mod		date

@@ -1,0 +1,14 @@
+dwh
+bymo_rl_asociado_tienda
+TBS_bymo_TABLA_SMALL
+TBS_bymo_INDICE_SMALL
+#
+cod_rl_asociado_tienda	PK	number(11)
+cod_tienda	FK	number(11)
+cod_tienda_ant		number(11)
+cod_asociado	FK	number(11)
+cod_asociado_ant		number(11)
+cod_f_alta	FK	number(11)
+cod_f_baja	FK	number(11)
+fecha_creacion		date
+fecha_mod		date

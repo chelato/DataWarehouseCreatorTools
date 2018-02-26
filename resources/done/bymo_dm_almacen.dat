@@ -1,0 +1,11 @@
+dwh
+bymo_dm_almacen
+TBS_bymo_TABLA_SMALL
+TBS_bymo_INDICE_SMALL
+#
+cod_almacen	PK	number(11)
+cod_almacen_ant		number(11)
+almacen		varchar2(255)
+codigo		varchar2(10)
+fecha_creacion		date
+fecha_mod		date

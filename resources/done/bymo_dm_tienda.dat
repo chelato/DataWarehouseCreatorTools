@@ -1,0 +1,54 @@
+dwh
+bymo_dm_tienda
+TBS_bymo_TABLA_SMALL
+TBS_bymo_INDICE_SMALL
+#
+cod_tienda	PK	number(11)
+cod_tienda_ant		number(11)
+tienda		varcar2(80)
+cod_asociado	FK	number(11)
+cod_asociado_ant		number(11)
+email		varchar2(100)
+email2		varchar2(100)
+telefono		varchar2(9)
+movil		varchar2(9)
+contacto		varchar2(50)
+almacen		varchar2(5)
+factor_ventas		number(10,2)
+cod_tipo_via		number(11)
+cod_tipo_via_ant		number(11)
+direccion		varchar2(100)
+numero		varchar2(8)
+otro		varchar2(45)
+cp		varchar2(5)
+localidad		varchar2(50)
+provincia		varchar2(80)
+latitud		varchar2(15)
+longitud		varchar2(15)
+almacen_ol		number(1)
+ind_pedidos		number(1)
+ind_devoluciones		number(1)
+ind_activo		number(1)
+indactivo_temp		number(1)
+clave_newton		varchar2(45)
+contrasena		varchar2(45)
+cod_f_apertura	FK	number(11)
+horario_tienda		varchar2(200)
+horario_finde		varchar2(200)
+comentarios		varchar2(300)
+ind_ccomercial		number(1)
+zona		
+gestor_temp		varchar2(150)
+clave_doctor_sim		varchar2(255)
+ind_reporte_auto		number(1)
+cta_twitter		varchar2(150)
+correo_bymovil		varchar2(255)
+clave_correo_bymovil		varchar2(255)
+ind_bloq_portal		number(1)
+ind_bloq_documental		number(1)
+courier_id		
+ind_pedido_minimo		number(1)
+id_tipo_tienda		
+ind_huelva		number(1)
+fecha_creacion		date
+fecha_mod		date

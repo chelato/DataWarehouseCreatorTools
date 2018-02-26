@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><ScriptConfiguration>
+	<PctFree value="10"/>
+	<PctUsed value="40"/>
+	<IniTrans value="1"/>
+	<MaxTrans value="255"/>
+	<Initial value="65536"/>
+	<Next value="1048576"/>
+	<MinExtents value="1"/>
+	<MaxExtents value="2147483645"/>
+	<PctIncrease value="0"/>
+	<FreeLists value="1"/>
+	<Groups value="1"/>
+	<BufferPool value="DEFAULT"/>
+	<FlashCache value="DEFAULT"/>
+	<CellFlashCache value="DEFAULT"/>
+	
+	<DefaultLoadPath value="APP.resources.load"/>
+	<DefaultScriptsPath value="APP.resources.scripts"/>
+	<DefaultLanguage value="en"/>
+</ScriptConfiguration>

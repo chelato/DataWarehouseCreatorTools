@@ -1,0 +1,10 @@
+dwh
+bymo_dm_curier
+TBS_bymo_TABLA_SMALL
+TBS_bymo_INDICE_SMALL
+#
+cod_curier	PK	number(11)
+cod_curier_ant		number(11)
+curier		varchar2(100)
+fecha_creacion		date
+fecha_mod		date

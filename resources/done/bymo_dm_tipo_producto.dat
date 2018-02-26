@@ -1,0 +1,11 @@
+dwh
+bymo_dm_tipo_producto
+TBS_bymo_TABLA_SMALL
+TBS_bymo_INDICE_SMALL
+#
+cod_tipo_producto	PK	number(11)
+cod_tipo_producto_ant		number(11)
+tipo_producto		varchar2(255)
+ind_sujeto_pasivo		number(1)
+fecha_creacion		date
+fecha_mod		date

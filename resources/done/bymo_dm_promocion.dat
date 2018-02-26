@@ -1,0 +1,14 @@
+dwh
+bymo_dm_promocion
+TBS_bymo_TABLA_SMALL
+TBS_bymo_INDICE_SMALL
+#
+cod_promocion	PK	number(11)
+cod_promocion_ant		number(11)
+promocion		varchar2(250)
+descripcion		varchar2(255)
+cod_f_alta	FK	number(11)
+cod_f_baja	FK	number(11)
+ind_activo		number(1)
+fecha_creacion		date
+fecha_mod		date

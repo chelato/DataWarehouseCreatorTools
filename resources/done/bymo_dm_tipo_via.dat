@@ -1,0 +1,10 @@
+dwh
+bymo_dm_tipo_via
+TBS_bymo_TABLA_SMALL
+TBS_bymo_INDICE_SMALL
+#
+cod_tipo_via	PK	number(11)
+cod_tipo_via_ant		number(11)
+tipo_via		varchar2(100)
+fecha_creacion		date
+fecha_mod		date

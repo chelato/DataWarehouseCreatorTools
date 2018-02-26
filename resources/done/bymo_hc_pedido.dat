@@ -1,0 +1,28 @@
+dwh
+bymo_hc_pedido
+TBS_bymo_TABLA_SMALL
+TBS_bymo_INDICE_SMALL
+#
+cod_pedido	PK	number(11)
+cod_pedido_ant		number(11)
+cod_tienda	FK	number(11)
+cod_tienda_ant		number(11)
+internal_reference		varchar2(22)
+cod_f_pedido	FK	number(11)
+cod_f_publicado	FK	number(11)
+importe		numer(12,2)
+cantidad		number(11,0)
+cod_estado_pedido	FK	number(11)
+cod_estado_pedido_ant		number(11)
+num_traking		varchar2(200)
+cod_f_envio	FK	number(11)
+cod_f_entrega	FK	number(11)
+comentarios		varchar2(255)
+albaran		varchar2(50)
+cod_f_cron	FK	number(11)
+hora_cron		number(6)
+cod_f_abono	FK	number(11)
+cod_curier	FK	number(11)
+cod_curier_ant		number(11)
+fecha_creacion		date
+fecha_mod		date

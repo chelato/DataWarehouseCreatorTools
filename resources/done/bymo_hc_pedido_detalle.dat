@@ -1,0 +1,26 @@
+dwh
+bymo_hc_pedido_detalle
+TBS_bymo_TABLA_SMALL
+TBS_bymo_INDICE_SMALL
+#
+cod_pedido_detalle	PK	number(11)
+cod_pedido_detalle_ant		number(11)
+internal_reference		varchar2(22)
+ref	PK	varchar2(150)
+cantidad		number(11,0)
+precio		number(10,2)
+precio_master		number(10,2)
+stock_pub		number(11,0)
+ordenado		number(11,0)
+cod_almacen	FK	number(11)
+cod_almacen_ant		number(11)
+stock_ped		number(11,0)
+stock_control		number(11,0)
+proveedor		varchar2(15)
+num_albaran		varchar2(45)
+ind_promocionable		number(1,0)
+cod_promocion	FK	number(11)
+cod_promocion_ant		number(11)
+num_albaran_abono		varchar2(45)
+fecha_creacion		date
+fecha_mod		date
